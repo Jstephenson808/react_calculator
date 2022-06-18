@@ -25,4 +25,8 @@ describe('Calculator', () => {
     it('should have ÷ button', () => {
         expect(screen.getByText('÷')).toBeInTheDocument();
     })
+    // Not sure about this one tbh, x could be found in lots of places
+    it('should have x button', () => {
+        expect(screen.getByText('x')).toBeInTheDocument();
+    })
 })

@@ -8,6 +8,7 @@ export default function Calculator() {
             <button id='calculate'>Calculate</button>
             <button id='+'>+</button>
             <button id='-'>-</button>
+            <button id='x'>x</button>
             <button id='÷'>÷</button>
         </>
     )

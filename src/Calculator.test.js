@@ -19,4 +19,7 @@ describe('Calculator', () => {
     it('should have a + button', () => {
         expect(screen.getByText('+')).toBeInTheDocument();
     })
+    it('should have a - button', () => {
+        expect(screen.getByText('-')).toBeInTheDocument();
+    })
 })

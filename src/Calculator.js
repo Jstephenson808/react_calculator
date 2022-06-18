@@ -7,6 +7,7 @@ export default function Calculator() {
             <input id='output-field'/>
             <button id='calculate'>Calculate</button>
             <button id='+'>+</button>
+            <button id='-'>-</button>
         </>
     )
 }

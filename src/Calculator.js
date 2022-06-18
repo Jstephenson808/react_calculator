@@ -5,6 +5,7 @@ export default function Calculator() {
             <input id='input-field'/>
             <label htmlFor='output-field'>Output</label>
             <input id='output-field'/>
+            <button id='calculate'>Calculate</button>
         </>
     )
 }

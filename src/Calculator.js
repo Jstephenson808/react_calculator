@@ -3,6 +3,8 @@ export default function Calculator() {
         <>
             <label htmlFor='input-field'>Input</label>
             <input id='input-field'/>
+            <label htmlFor='output-field'>Output</label>
+            <input id='output-field'/>
         </>
     )
 }

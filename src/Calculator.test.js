@@ -16,4 +16,7 @@ describe('Calculator', () => {
     it('should have a calculate button', () => {
         expect(screen.getByText('Calculate')).toBeInTheDocument();
     })
+    it('should have a + button', () => {
+        expect(screen.getByText('+')).toBeInTheDocument();
+    })
 })
